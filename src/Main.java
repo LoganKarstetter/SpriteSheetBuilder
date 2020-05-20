@@ -85,10 +85,10 @@ public class Main
             SpriteSheetManager spriteSheetManager = new SpriteSheetManager( 30 );
 
             //Build a sprite sheet from the "Images" directory
-            spriteSheetManager.buildSpriteSheet( "/Images/", "/Sprites/" );
+            spriteSheetManager.buildSpriteSheet( "src/Images/", "src/Sprites/" );
 
             //Parse the sprite sheet and output the result into the "Sprites" directory
-            spriteSheetManager.parseSpriteSheet( "/Sprites/spritesheet.png", "/Sprites/" );
+            spriteSheetManager.parseSpriteSheet( "src/Sprites/spritesheet_30.png", "src/Sprites/" );
         }
     }
 }
