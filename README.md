@@ -5,20 +5,20 @@ How to run from the command line:
 - Download the SpriteSheetBuilder.jar file found in this folder: "SpriteSheetBuilder/out/artifacts/SpriteSheetBuilder_jar".
 - Run "java -jar ./SpriteSheetBuilder.jar -arguments -go -here".
 
-Here's the command line help text:
+Here's the command line help text: 
 SpriteSheetBuilder - Created by Logan Karstetter
 
 General Information and Tips:
-        - The source and destination directory arguments are required to be wrapped in quotes " ".
-        - The builder and parser only support the following image file formats: '.png', '.jpg', '.jpeg'.
-        - The builder sweeps the entire source directory for files (non-recursive), don't have any undesired images in there.
-        - The builder and parser are not made to handle building and parsing sprite sheets within sprite sheets. That won't work, so don't do it.
-        - The parser can only parse sheets built by this tool, the spriteSize argument must match the size used to build (_# at end of built file name).
+  - The source and destination directory arguments are required to be wrapped in quotes " ".
+  - The builder and parser only support the following image file formats: '.png', '.jpg', '.jpeg'.
+  - The builder sweeps the entire source directory for files (non-recursive), don't have any undesired images in there.
+  - The builder and parser are not made to handle building and parsing sprite sheets within sprite sheets. That won't work, so don't do it.
+  - The parser can only parse sheets built by this tool, the spriteSize argument must match the size used to build (_# at end of built file name).
 
 Command Line Options:
-        -b spriteSize "sourceDirectory" "destinationDirectory" 'Builds a sprite sheet with the images found in the source directory. Outputs to the destination directory.'
-        -p spriteSize "spriteSheetPath" "destinationDirectory" 'Parses a sprite sheet into individual sprites. Outputs the images in the destination directory.'
-        -h 'Prints this help text.'
+  - -b spriteSize "sourceDirectory" "destinationDirectory" 'Builds a sprite sheet with the images found in the source directory. Outputs to the destination directory.'
+  - -p spriteSize "spriteSheetPath" "destinationDirectory" 'Parses a sprite sheet into individual sprites. Outputs the images in the destination directory.'
+  - -h 'Prints this help text.'
         
 If anyone ever uses this tool and has questions let me know (<- this will never happen).
 
