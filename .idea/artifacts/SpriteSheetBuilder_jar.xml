@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SpriteSheetBuilder:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpriteSheetBuilder_jar</output-path>
+    <root id="archive" name="SpriteSheetBuilder.jar">
+      <element id="module-output" name="SpriteSheetBuilder" />
+    </root>
+  </artifact>
+</component>
