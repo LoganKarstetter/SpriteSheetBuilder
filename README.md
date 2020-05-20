@@ -3,7 +3,7 @@ A sprite sheet building and parsing tool I created in May of 2020 to assist in m
 
 How to run from the command line:
 - Download the SpriteSheetBuilder.jar file found in this folder: "SpriteSheetBuilder/out/artifacts/SpriteSheetBuilder_jar".
-- Run "java -jar SpriteSheetBuilder -<insert arguments here>".
+- Run "java -jar SpriteSheetBuilder -arguments_go_here".
 
 Here's the command line help text:
 SpriteSheetBuilder - Created by Logan Karstetter
