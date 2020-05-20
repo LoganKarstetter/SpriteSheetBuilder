@@ -3,7 +3,7 @@ A sprite sheet building and parsing tool I created in May of 2020 to assist in m
 
 How to run from the command line:
 - Download the SpriteSheetBuilder.jar file found in this folder: "SpriteSheetBuilder/out/artifacts/SpriteSheetBuilder_jar".
-- Run "java -jar SpriteSheetBuilder -arguments_go_here".
+- Run "java -jar ./SpriteSheetBuilder.jar -arguments -go -here".
 
 Here's the command line help text:
 SpriteSheetBuilder - Created by Logan Karstetter
@@ -20,6 +20,6 @@ Command Line Options:
         -p spriteSize "spriteSheetPath" "destinationDirectory" 'Parses a sprite sheet into individual sprites. Outputs the images in the destination directory.'
         -h 'Prints this help text.'
         
-If anyone ever uses the tool and has questions let me know (like that will ever happen).
+If anyone ever uses this tool and has questions let me know (<- this will never happen).
 
 Logan
