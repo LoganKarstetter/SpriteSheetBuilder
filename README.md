@@ -5,7 +5,8 @@ How to run from the command line:
 - Download the SpriteSheetBuilder.jar file found in this folder: "SpriteSheetBuilder/out/artifacts/SpriteSheetBuilder_jar".
 - Run "java -jar ./SpriteSheetBuilder.jar -arguments -go -here".
 
-Here's the command line help text: 
+Here's the command line help text:
+
 SpriteSheetBuilder - Created by Logan Karstetter
 
 General Information and Tips:
